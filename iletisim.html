@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İletişim. | Gamze Ertuğrul</title>
+
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body class="page-contact">
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="navlink" href="gezdigim-yerler.html">Gezdiğim Yerler.</a>
+    <a class="logo" href="hakkimda.html" aria-label="Ana Sayfa">GE</a>
+    <a class="navlink active" href="iletisim.html">İletişim.</a>
+  </div>
+</header>
+
+<main class="wrap contact-grid">
+  <section class="contact-card">
+    <div class="contact-row">
+      <span class="tag">E-posta</span>
+      <a class="contact-link" href="mailto:gamze.ertugrul@csb.gov.tr">gamze.ertugrul@csb.gov.tr</a>
+    </div>
+    <div class="contact-row">
+      <span class="tag">Adres</span>
+      <span class="contact-text">Mustafa Kemal Mahallesi 2082. Cadde No:52  Çankaya / Ankara</span>
+    </div>
+  </section>
+
+  <section class="contact-map">
+    <div id="mapIletisim" class="map-panel"></div>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
